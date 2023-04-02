@@ -4,7 +4,7 @@ export default defineNuxtConfig({
       strict: false
     },
     modules: [
-      "@nuxtjs/google-fonts", '@nuxtjs/tailwindcss', 'nuxt-icon', '@pinia/nuxt', '@nuxtjs/apollo', 'nuxt-swiper'
+      "@nuxtjs/google-fonts", '@nuxtjs/tailwindcss', 'nuxt-icon', '@pinia/nuxt', 'nuxt-swiper'
     ],
     googleFonts: {
         download: true,
@@ -19,13 +19,6 @@ export default defineNuxtConfig({
             ital: [100]
           },
         }
-    },
-    apollo: {
-      clients: {
-        default: {
-          httpEndpoint: 'http://localhost:1337/graphql'
-        }
-      },
     },
     runtimeConfig: {
       API_URL: process.env.API_URL
