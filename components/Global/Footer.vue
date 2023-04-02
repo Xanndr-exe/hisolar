@@ -1,8 +1,6 @@
 <script setup lang="ts">
 const footerNavigation = [ 
-    { title: 'Services', link: '/services' },
-    { title: 'Our Works', link: '/portfolio' },
-    { title: 'Articles', link: '/blog' },
+    { title: 'About US', link: '/About' },
     { title: 'Order', link: '/order' }
 ];
 
