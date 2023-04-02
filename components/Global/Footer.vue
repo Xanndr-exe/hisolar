@@ -23,7 +23,7 @@ const socialMedia = [
     .flex(class="flex-col space-y-10 md:space-y-0 md:flex-row justify-between items-center flex-wrap")
         .menu(class="text-white flex items-center justify-center md:justify-start flex-wrap space-y-10 md:space-y-0 md:space-x-5 lg:space-x-10 text-2xl md:text-lg")
             .logo
-                img( class="max-h-8" src="logo-white.png")
+                img( class="max-h-8" src="/img/logo-white.png")
 
             .item( class="w-full md:w-auto text-center md:text-left" v-for="item in footerNavigation" )
                 NuxtLink( :to="item.link" ) {{ item.title }}
